@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/greg/nfs/KiCad/Vic20_35k_Expansion/expansion.sch</source>
+    <date>Mon 11 Mar 2019 08:48:46 AM GMT</date>
+    <tool>Eeschema 5.0.2+dfsg1-1~bpo9+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Commodore VIC-20 35k Expansion</title>
+        <company/>
+        <rev>1.1</rev>
+        <date>2019-03-10</date>
+        <source>expansion.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="S1">
+      <value>Switch</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm</footprint>
+      <libsource lib="expansion-eagle-import" part="DIP-08-PTH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ABB621A3C76A2FAE</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>6264</value>
+      <footprint>Package_DIP:DIP-28_W15.24mm_LongPads</footprint>
+      <libsource lib="expansion-eagle-import" part="6264A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4E27A81F26B5401C</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>44PINEDGE</value>
+      <footprint>expansion:44PINEDGE</footprint>
+      <libsource lib="expansion-eagle-import" part="44PINEDGE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3904F63DF6E8D358</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>62256</value>
+      <footprint>Package_DIP:DIP-28_W15.24mm_LongPads</footprint>
+      <libsource lib="expansion-eagle-import" part="62256P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>183657B29D0449ED</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Array_SIP9</footprint>
+      <libsource lib="expansion-eagle-import" part="4609X" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6CA95FCA9AA825E4</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>74LS21</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C86E137</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS21">
+      <description>Dual 4-input AND</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS21</docs>
+      <footprints>
+        <fp>DIP?12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS21</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="expansion-eagle-import" part="44PINEDGE">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">44PINEDGE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="E" name="E" type="passive"/>
+        <pin num="F" name="F" type="passive"/>
+        <pin num="H" name="H" type="passive"/>
+        <pin num="J" name="J" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+        <pin num="L" name="L" type="passive"/>
+        <pin num="M" name="M" type="passive"/>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+        <pin num="R" name="R" type="passive"/>
+        <pin num="S" name="S" type="passive"/>
+        <pin num="T" name="T" type="passive"/>
+        <pin num="U" name="U" type="passive"/>
+        <pin num="V" name="V" type="passive"/>
+        <pin num="W" name="W" type="passive"/>
+        <pin num="X" name="X" type="passive"/>
+        <pin num="Y" name="Y" type="passive"/>
+        <pin num="Z" name="Z" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="expansion-eagle-import" part="4609X">
+      <fields>
+        <field name="Reference">RN1</field>
+        <field name="Value">4609X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="expansion-eagle-import" part="62256P">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">62256P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A14" type="input"/>
+        <pin num="2" name="A12" type="input"/>
+        <pin num="3" name="A7" type="input"/>
+        <pin num="4" name="A6" type="input"/>
+        <pin num="5" name="A5" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A3" type="input"/>
+        <pin num="8" name="A2" type="input"/>
+        <pin num="9" name="A1" type="input"/>
+        <pin num="10" name="A0" type="input"/>
+        <pin num="11" name="I/O0" type="BiDi"/>
+        <pin num="12" name="I/O1" type="BiDi"/>
+        <pin num="13" name="I/O2" type="BiDi"/>
+        <pin num="14" name="VSS" type="power_in"/>
+        <pin num="15" name="I/O3" type="BiDi"/>
+        <pin num="16" name="I/O4" type="BiDi"/>
+        <pin num="17" name="I/O5" type="BiDi"/>
+        <pin num="18" name="I/O6" type="BiDi"/>
+        <pin num="19" name="I/O7" type="BiDi"/>
+        <pin num="20" name="~CS" type="input"/>
+        <pin num="21" name="A10" type="input"/>
+        <pin num="22" name="~OE" type="input"/>
+        <pin num="23" name="A11" type="input"/>
+        <pin num="24" name="A9" type="input"/>
+        <pin num="25" name="A8" type="input"/>
+        <pin num="26" name="A13" type="input"/>
+        <pin num="27" name="~WE" type="input"/>
+        <pin num="28" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="expansion-eagle-import" part="6264A">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">6264A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="A12" type="input"/>
+        <pin num="3" name="A7" type="input"/>
+        <pin num="4" name="A6" type="input"/>
+        <pin num="5" name="A5" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A3" type="input"/>
+        <pin num="8" name="A2" type="input"/>
+        <pin num="9" name="A1" type="input"/>
+        <pin num="10" name="A0" type="input"/>
+        <pin num="11" name="I/O1" type="BiDi"/>
+        <pin num="12" name="I/O2" type="BiDi"/>
+        <pin num="13" name="I/O3" type="BiDi"/>
+        <pin num="14" name="VSS" type="power_in"/>
+        <pin num="15" name="I/O4" type="BiDi"/>
+        <pin num="16" name="I/O5" type="BiDi"/>
+        <pin num="17" name="I/O6" type="BiDi"/>
+        <pin num="18" name="I/O7" type="BiDi"/>
+        <pin num="19" name="I/O8" type="BiDi"/>
+        <pin num="20" name="~CS1" type="input"/>
+        <pin num="21" name="A10" type="input"/>
+        <pin num="22" name="~OE" type="input"/>
+        <pin num="23" name="A11" type="input"/>
+        <pin num="24" name="A9" type="input"/>
+        <pin num="25" name="A8" type="input"/>
+        <pin num="26" name="CS2" type="input"/>
+        <pin num="27" name="~WE" type="input"/>
+        <pin num="28" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="expansion-eagle-import" part="DIP-08-PTH">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">DIP-08-PTH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="expansion-eagle-import">
+      <uri>/home/greg/nfs/KiCad/Vic20_35k_Expansion/expansion-eagle-import.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(P1-Pad22)">
+      <node ref="P1" pin="22"/>
+    </net>
+    <net code="2" name="Net-(P1-Pad20)">
+      <node ref="P1" pin="20"/>
+    </net>
+    <net code="3" name="Net-(P1-Pad19)">
+      <node ref="P1" pin="19"/>
+    </net>
+    <net code="4" name="Net-(P1-Pad18)">
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="5" name="Net-(P1-Pad10)">
+      <node ref="S1" pin="4"/>
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="6" name="Net-(P1-PadY)">
+      <node ref="P1" pin="Y"/>
+    </net>
+    <net code="7" name="+5V">
+      <node ref="IC1" pin="28"/>
+      <node ref="IC3" pin="14"/>
+      <node ref="RN1" pin="1"/>
+      <node ref="IC2" pin="26"/>
+      <node ref="IC2" pin="28"/>
+      <node ref="P1" pin="21"/>
+    </net>
+    <net code="8" name="Net-(P1-PadZ)">
+      <node ref="P1" pin="Z"/>
+    </net>
+    <net code="9" name="Net-(P1-PadX)">
+      <node ref="P1" pin="X"/>
+    </net>
+    <net code="10" name="Net-(P1-PadW)">
+      <node ref="P1" pin="W"/>
+    </net>
+    <net code="11" name="Net-(P1-PadV)">
+      <node ref="P1" pin="V"/>
+    </net>
+    <net code="12" name="Net-(P1-PadU)">
+      <node ref="P1" pin="U"/>
+    </net>
+    <net code="13" name="Net-(P1-PadT)">
+      <node ref="P1" pin="T"/>
+    </net>
+    <net code="14" name="Net-(P1-Pad13)">
+      <node ref="P1" pin="13"/>
+      <node ref="S1" pin="7"/>
+    </net>
+    <net code="15" name="Net-(P1-Pad12)">
+      <node ref="P1" pin="12"/>
+      <node ref="S1" pin="6"/>
+    </net>
+    <net code="16" name="Net-(P1-Pad11)">
+      <node ref="P1" pin="11"/>
+      <node ref="S1" pin="5"/>
+    </net>
+    <net code="17" name="Net-(P1-Pad16)">
+      <node ref="P1" pin="16"/>
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="18" name="Net-(P1-Pad15)">
+      <node ref="S1" pin="2"/>
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="19" name="Net-(P1-Pad14)">
+      <node ref="S1" pin="1"/>
+      <node ref="P1" pin="14"/>
+    </net>
+    <net code="20" name="/A13">
+      <node ref="IC1" pin="26"/>
+      <node ref="P1" pin="S"/>
+    </net>
+    <net code="21" name="/A12">
+      <node ref="P1" pin="R"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="22" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(IC3-Pad2)">
+      <node ref="RN1" pin="8"/>
+      <node ref="S1" pin="15"/>
+      <node ref="IC3" pin="2"/>
+    </net>
+    <net code="24" name="Net-(IC3-Pad5)">
+      <node ref="S1" pin="13"/>
+      <node ref="IC3" pin="5"/>
+      <node ref="RN1" pin="6"/>
+    </net>
+    <net code="25" name="Net-(IC2-Pad22)">
+      <node ref="RN1" pin="3"/>
+      <node ref="IC2" pin="22"/>
+      <node ref="S1" pin="10"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="IC1" pin="14"/>
+      <node ref="P1" pin="1"/>
+      <node ref="IC3" pin="7"/>
+      <node ref="IC2" pin="14"/>
+      <node ref="P1" pin="A"/>
+    </net>
+    <net code="27" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="IC3" pin="12"/>
+      <node ref="IC3" pin="10"/>
+    </net>
+    <net code="28" name="Net-(IC3-Pad4)">
+      <node ref="S1" pin="14"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="RN1" pin="7"/>
+    </net>
+    <net code="29" name="Net-(IC1-Pad27)">
+      <node ref="S1" pin="8"/>
+      <node ref="P1" pin="17"/>
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="34" name="Net-(IC3-Pad9)">
+      <node ref="RN1" pin="4"/>
+      <node ref="IC3" pin="9"/>
+      <node ref="S1" pin="11"/>
+    </net>
+    <net code="35" name="Net-(IC3-Pad13)">
+      <node ref="RN1" pin="5"/>
+      <node ref="S1" pin="12"/>
+      <node ref="IC3" pin="13"/>
+    </net>
+    <net code="36" name="/D1">
+      <node ref="IC1" pin="12"/>
+      <node ref="P1" pin="3"/>
+      <node ref="IC2" pin="12"/>
+    </net>
+    <net code="37" name="/D0">
+      <node ref="IC2" pin="11"/>
+      <node ref="P1" pin="2"/>
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="38" name="Net-(IC1-Pad20)">
+      <node ref="IC1" pin="22"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="IC3" pin="8"/>
+    </net>
+    <net code="39" name="Net-(IC2-Pad20)">
+      <node ref="IC2" pin="20"/>
+      <node ref="IC2" pin="27"/>
+      <node ref="RN1" pin="2"/>
+      <node ref="S1" pin="9"/>
+    </net>
+    <net code="40" name="Net-(IC3-Pad1)">
+      <node ref="S1" pin="16"/>
+      <node ref="IC3" pin="1"/>
+      <node ref="RN1" pin="9"/>
+    </net>
+    <net code="41" name="/A7">
+      <node ref="P1" pin="K"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="IC2" pin="3"/>
+    </net>
+    <net code="42" name="/A6">
+      <node ref="IC2" pin="4"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="P1" pin="J"/>
+    </net>
+    <net code="43" name="/A5">
+      <node ref="IC2" pin="5"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="P1" pin="H"/>
+    </net>
+    <net code="44" name="/A4">
+      <node ref="P1" pin="F"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="45" name="/A3">
+      <node ref="P1" pin="E"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="46" name="/A2">
+      <node ref="P1" pin="D"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="47" name="/A9">
+      <node ref="P1" pin="M"/>
+      <node ref="IC1" pin="24"/>
+      <node ref="IC2" pin="24"/>
+    </net>
+    <net code="48" name="/A11">
+      <node ref="IC1" pin="23"/>
+      <node ref="IC2" pin="23"/>
+      <node ref="P1" pin="P"/>
+    </net>
+    <net code="49" name="/A10">
+      <node ref="IC1" pin="21"/>
+      <node ref="P1" pin="N"/>
+      <node ref="IC2" pin="21"/>
+    </net>
+    <net code="50" name="/A8">
+      <node ref="IC1" pin="25"/>
+      <node ref="P1" pin="L"/>
+      <node ref="IC2" pin="25"/>
+    </net>
+    <net code="51" name="/D5">
+      <node ref="IC1" pin="17"/>
+      <node ref="P1" pin="7"/>
+      <node ref="IC2" pin="17"/>
+    </net>
+    <net code="52" name="/D4">
+      <node ref="P1" pin="6"/>
+      <node ref="IC2" pin="16"/>
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="53" name="/D3">
+      <node ref="IC2" pin="15"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="54" name="/D2">
+      <node ref="IC2" pin="13"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="55" name="/A1">
+      <node ref="IC2" pin="9"/>
+      <node ref="P1" pin="C"/>
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="56" name="/A0">
+      <node ref="IC2" pin="10"/>
+      <node ref="P1" pin="B"/>
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="57" name="/D7">
+      <node ref="IC1" pin="19"/>
+      <node ref="P1" pin="9"/>
+      <node ref="IC2" pin="19"/>
+    </net>
+    <net code="58" name="/D6">
+      <node ref="IC1" pin="18"/>
+      <node ref="P1" pin="8"/>
+      <node ref="IC2" pin="18"/>
+    </net>
+  </nets>
+</export>
